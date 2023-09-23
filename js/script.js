@@ -44,6 +44,8 @@ $(".time-block").each(function() {
     $(this).find("textarea").val(useInput);
 });
 
+});
+
         
      
 
@@ -54,21 +56,7 @@ $(".time-block").each(function() {
 
 
 
-    // btns.click(storeEvent)
 
-    // function storeEvent() {
-    //     var btn = $(this);
-    //     // grabs the textarea
-    //     var textarea = btn.prev();
-    //     //get text areas value
-    //     var parentDiv = btn.parent();
-    //     //gets the parentDiv id
-    //     var id = parentDiv.attr('id');
-
-    //     // store a value to local storage corresponding with the hour
-    //     // show an aller tot the user letting them know that the event was saved
-    //     console.log(id);
-    //}
 
     
     
@@ -82,7 +70,7 @@ $(".time-block").each(function() {
 
 
     
-});
+
 
 
 
