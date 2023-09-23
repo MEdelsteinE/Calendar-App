@@ -44,6 +44,8 @@ $(".time-block").each(function() {
     $(this).find("textarea").val(useInput);
 });
 
+btns.click(storeEvent)
+
 });
 
         
